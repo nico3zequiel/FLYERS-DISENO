@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 247, 247);
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    
+
+
+    .links{
+        text-decoration: none;
+    }
+    
+    
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .mt-n1 {
+        margin-top: -0.25rem !important;
+      }
+    
+     
+    
+    .imagenes{
+          margin-top: 100px;
+          margin-bottom: 20px;
+      }
+    
+
+
+    .flexbox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-bottom: 40px;
+        margin-top: 40px; */
+    }
+
+
+
+    .grillas{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 300px 300px 300px;
+
+    }
+    
+    /* TEXTOS */
+    
+    .footerSize{
+        font-size: 20px;
+        /* font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Russo One', sans-serif; */
+    }
+    
+    
+
+
+
+/* PANTALLAS GRANDES */
+
+
+}
+
+@media only screen and (max-width: 920px) {
+
+    .links{
+        text-decoration: none;
+    }
+    
+    
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .mt-n1 {
+        margin-top: -0.25rem !important;
+      }
+    
+     
+    
+    .imagenes{
+          margin-top: 100px;
+          margin-bottom: 20px;
+      }
+    
+
+      
+    .flexbox{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    /* TEXTOS */
+    
+    .footerSize{
+        font-size: 20px;
+    }
+
+    .boxModel{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+    }
+
+    .boxModel2{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+    }
+    
+    
+}
+
+
+
